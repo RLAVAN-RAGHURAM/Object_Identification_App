@@ -33,7 +33,7 @@ if(status != "")
 {
 for (i=0;i<objects.length;i++)
 {
-document.getElementById("status").innerHTML="status : Object detected"
+document.getElementById("status").innerHTML="status : Object detected";
 fill("#FF0000");
 percentage=floor(objects[i].confidence*100);
 text(objects[i].label+ " " +percentage+"%",objects[i].x+15,objects[i].y+15);
